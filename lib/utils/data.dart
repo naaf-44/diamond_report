@@ -3,7 +3,7 @@ import 'package:diamond_report/model/diamond_report_model.dart';
 List<DiamondReportModel> dartDiamondReports = [
   DiamondReportModel(
     qty: "1.0",
-    lotID: "790185947.0",
+    lotID: "790185947",
     size: "20",
     carat: "0.9",
     lab: "GIA",
@@ -22,7 +22,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "490361405.0",
+    lotID: "490361405",
     size: "20",
     carat: "0.9",
     lab: "GIA",
@@ -41,7 +41,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "790367521.0",
+    lotID: "790367521",
     size: "20",
     carat: "1.0",
     lab: "GIA",
@@ -60,7 +60,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "490361912.0",
+    lotID: "490361912",
     size: "20",
     carat: "1.0",
     lab: "GIA",
@@ -79,7 +79,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "790386188.0",
+    lotID: "790386188",
     size: "20",
     carat: "1.01",
     lab: "GIA",
@@ -98,7 +98,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "21287670.0",
+    lotID: "21287670",
     size: "20",
     carat: "1.01",
     lab: "In-House",
@@ -117,7 +117,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "790146218.0",
+    lotID: "790146218",
     size: "20",
     carat: "1.2",
     lab: "GIA",
@@ -136,7 +136,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "900066231.0",
+    lotID: "900066231",
     size: "20",
     carat: "1.44",
     lab: "In-House",
@@ -155,7 +155,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "900061985.0",
+    lotID: "900061985",
     size: "20",
     carat: "1.46",
     lab: "In-House",
@@ -174,7 +174,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "490345395.0",
+    lotID: "490345395",
     size: "20",
     carat: "0.3",
     lab: "GIA",
@@ -193,7 +193,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "490370762.0",
+    lotID: "490370762",
     size: "20",
     carat: "0.3",
     lab: "GIA",
@@ -212,7 +212,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "1712094.0",
+    lotID: "1712094",
     size: "20",
     carat: "0.3",
     lab: "GIA",
@@ -231,7 +231,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "900057394.0",
+    lotID: "900057394",
     size: "20",
     carat: "0.3",
     lab: "GIA",
@@ -250,7 +250,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "900055819.0",
+    lotID: "900055819",
     size: "20",
     carat: "0.3",
     lab: "GIA",
@@ -269,7 +269,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "1706382.0",
+    lotID: "1706382",
     size: "20",
     carat: "0.3",
     lab: "GIA",
@@ -288,7 +288,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "290135752.0",
+    lotID: "290135752",
     size: "20",
     carat: "0.3",
     lab: "GIA",
@@ -307,7 +307,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "490250218.0",
+    lotID: "490250218",
     size: "20",
     carat: "0.3",
     lab: "GIA",
@@ -326,7 +326,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "490167040.0",
+    lotID: "490167040",
     size: "20",
     carat: "0.3",
     lab: "GIA",
@@ -345,7 +345,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "900066356.0",
+    lotID: "900066356",
     size: "20",
     carat: "0.18",
     lab: "In-House",
@@ -364,7 +364,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "900064899.0",
+    lotID: "900064899",
     size: "20",
     carat: "0.18",
     lab: "In-House",
@@ -383,7 +383,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "900067131.0",
+    lotID: "900067131",
     size: "20",
     carat: "0.23",
     lab: "In-House",
@@ -402,7 +402,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "900066716.0",
+    lotID: "900066716",
     size: "20",
     carat: "0.23",
     lab: "In-House",
@@ -421,7 +421,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "900062564.0",
+    lotID: "900062564",
     size: "20",
     carat: "3.01",
     lab: "GIA",
@@ -440,7 +440,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "900065188.0",
+    lotID: "900065188",
     size: "20",
     carat: "3.01",
     lab: "GIA",
@@ -459,7 +459,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "290187276.0",
+    lotID: "290187276",
     size: "20",
     carat: "3.01",
     lab: "GIA",
@@ -478,7 +478,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "900061478.0",
+    lotID: "900061478",
     size: "20",
     carat: "3.01",
     lab: "GIA",
@@ -497,7 +497,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "21214039.0",
+    lotID: "21214039",
     size: "20",
     carat: "2.0",
     lab: "GIA",
@@ -516,7 +516,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "21269689.0",
+    lotID: "21269689",
     size: "20",
     carat: "2.0",
     lab: "GIA",
@@ -535,7 +535,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "112209404.0",
+    lotID: "112209404",
     size: "20",
     carat: "2.0",
     lab: "GIA",
@@ -554,7 +554,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "900064418.0",
+    lotID: "900064418",
     size: "20",
     carat: "2.01",
     lab: "GIA",
@@ -573,7 +573,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "1709323.0",
+    lotID: "1709323",
     size: "20",
     carat: "2.54",
     lab: "HRD",
@@ -592,7 +592,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "21126224.0",
+    lotID: "21126224",
     size: "20",
     carat: "3.02",
     lab: "In-House",
@@ -611,7 +611,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "21155574.0",
+    lotID: "21155574",
     size: "20",
     carat: "3.05",
     lab: "In-House",
@@ -630,7 +630,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "911036108.0",
+    lotID: "911036108",
     size: "20",
     carat: "2.0",
     lab: "GIA",
@@ -649,7 +649,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "290053887.0",
+    lotID: "290053887",
     size: "20",
     carat: "2.01",
     lab: "GIA",
@@ -668,7 +668,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "900691763.0",
+    lotID: "900691763",
     size: "20",
     carat: "2.01",
     lab: "GIA",
@@ -687,7 +687,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "900691769.0",
+    lotID: "900691769",
     size: "20",
     carat: "3.0",
     lab: "GIA",
@@ -706,7 +706,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "911036111.0",
+    lotID: "911036111",
     size: "20",
     carat: "3.01",
     lab: "GIA",
@@ -725,7 +725,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "290035976.0",
+    lotID: "290035976",
     size: "20",
     carat: "3.01",
     lab: "GIA",
@@ -744,7 +744,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "911036101.0",
+    lotID: "911036101",
     size: "20",
     carat: "2.01",
     lab: "GIA",
@@ -763,7 +763,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "20289242.0",
+    lotID: "20289242",
     size: "20",
     carat: "2.07",
     lab: "GIA",
@@ -782,7 +782,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "290114652.0",
+    lotID: "290114652",
     size: "20",
     carat: "2.82",
     lab: "GIA",
@@ -801,7 +801,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "911026173.0",
+    lotID: "911026173",
     size: "20",
     carat: "3.01",
     lab: "GIA",
@@ -820,7 +820,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "911035850.0",
+    lotID: "911035850",
     size: "20",
     carat: "3.01",
     lab: "GIA",
@@ -839,7 +839,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "290157034.0",
+    lotID: "290157034",
     size: "20",
     carat: "3.01",
     lab: "GIA",
@@ -858,7 +858,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "911024106.0",
+    lotID: "911024106",
     size: "20",
     carat: "3.02",
     lab: "GIA",
@@ -877,7 +877,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "7513951.0",
+    lotID: "7513951",
     size: "20",
     carat: "2.01",
     lab: "GIA",
@@ -896,7 +896,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "900045732.0",
+    lotID: "900045732",
     size: "20",
     carat: "2.01",
     lab: "GIA",
@@ -915,7 +915,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "900779752.0",
+    lotID: "900779752",
     size: "20",
     carat: "2.68",
     lab: "GIA",
@@ -934,7 +934,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "900579422.0",
+    lotID: "900579422",
     size: "20",
     carat: "3.01",
     lab: "GIA",
@@ -953,7 +953,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "901000037.0",
+    lotID: "901000037",
     size: "20",
     carat: "3.01",
     lab: "GIA",
@@ -972,7 +972,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "290186284.0",
+    lotID: "290186284",
     size: "20",
     carat: "3.02",
     lab: "GIA",
@@ -991,7 +991,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "290115870.0",
+    lotID: "290115870",
     size: "20",
     carat: "2.5",
     lab: "GIA",
@@ -1010,7 +1010,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "900723209.0",
+    lotID: "900723209",
     size: "20",
     carat: "2.01",
     lab: "GIA",
@@ -1029,7 +1029,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "900622172.0",
+    lotID: "900622172",
     size: "20",
     carat: "0.5",
     lab: "GIA",
@@ -1048,7 +1048,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "900622170.0",
+    lotID: "900622170",
     size: "20",
     carat: "0.5",
     lab: "GIA",
@@ -1067,7 +1067,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "900622171.0",
+    lotID: "900622171",
     size: "20",
     carat: "0.5",
     lab: "GIA",
@@ -1086,7 +1086,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "900691721.0",
+    lotID: "900691721",
     size: "20",
     carat: "0.5",
     lab: "GIA",
@@ -1105,7 +1105,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "900622186.0",
+    lotID: "900622186",
     size: "20",
     carat: "0.59",
     lab: "GIA",
@@ -1124,7 +1124,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "900691730.0",
+    lotID: "900691730",
     size: "20",
     carat: "0.7",
     lab: "GIA",
@@ -1143,7 +1143,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "900691734.0",
+    lotID: "900691734",
     size: "20",
     carat: "0.7",
     lab: "GIA",
@@ -1162,7 +1162,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "900691737.0",
+    lotID: "900691737",
     size: "20",
     carat: "0.7",
     lab: "GIA",
@@ -1181,7 +1181,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "900622198.0",
+    lotID: "900622198",
     size: "20",
     carat: "0.7",
     lab: "GIA",
@@ -1200,7 +1200,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "900478081.0",
+    lotID: "900478081",
     size: "20",
     carat: "0.8",
     lab: "GIA",
@@ -1219,7 +1219,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "490070471.0",
+    lotID: "490070471",
     size: "20",
     carat: "1.01",
     lab: "GIA",
@@ -1238,7 +1238,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "290168948.0",
+    lotID: "290168948",
     size: "20",
     carat: "3.01",
     lab: "GIA",
@@ -1257,7 +1257,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "790339140.0",
+    lotID: "790339140",
     size: "20",
     carat: "1.7",
     lab: "GIA",
@@ -1276,7 +1276,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "790377407.0",
+    lotID: "790377407",
     size: "20",
     carat: "0.92",
     lab: "GIA",
@@ -1295,7 +1295,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "7482482.0",
+    lotID: "7482482",
     size: "20",
     carat: "1.01",
     lab: "GIA",
@@ -1314,7 +1314,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "490017318.0",
+    lotID: "490017318",
     size: "20",
     carat: "5.01",
     lab: "GIA",
@@ -1333,7 +1333,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "17463537.0",
+    lotID: "17463537",
     size: "20",
     carat: "3.19",
     lab: "GIA",
@@ -1352,7 +1352,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "21230187.0",
+    lotID: "21230187",
     size: "20",
     carat: "1.0",
     lab: "HRD",
@@ -1371,7 +1371,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "21235183.0",
+    lotID: "21235183",
     size: "20",
     carat: "1.0",
     lab: "HRD",
@@ -1390,7 +1390,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "7522163.0",
+    lotID: "7522163",
     size: "20",
     carat: "1.0",
     lab: "HRD",
@@ -1409,7 +1409,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "21240435.0",
+    lotID: "21240435",
     size: "20",
     carat: "1.01",
     lab: "HRD",
@@ -1428,7 +1428,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "1691633.0",
+    lotID: "1691633",
     size: "20",
     carat: "1.2",
     lab: "HRD",
@@ -1447,7 +1447,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "490171786.0",
+    lotID: "490171786",
     size: "20",
     carat: "1.2",
     lab: "HRD",
@@ -1466,7 +1466,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "1700572.0",
+    lotID: "1700572",
     size: "20",
     carat: "1.21",
     lab: "HRD",
@@ -1485,7 +1485,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "1672088.0",
+    lotID: "1672088",
     size: "20",
     carat: "1.25",
     lab: "HRD",
@@ -1504,7 +1504,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "490142601.0",
+    lotID: "490142601",
     size: "20",
     carat: "1.31",
     lab: "HRD",
@@ -1523,7 +1523,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "490297520.0",
+    lotID: "490297520",
     size: "20",
     carat: "1.5",
     lab: "HRD",
@@ -1542,7 +1542,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "490267195.0",
+    lotID: "490267195",
     size: "20",
     carat: "1.7",
     lab: "HRD",
@@ -1561,7 +1561,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "290148072.0",
+    lotID: "290148072",
     size: "20",
     carat: "1.8",
     lab: "HRD",
@@ -1580,7 +1580,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "1673222.0",
+    lotID: "1673222",
     size: "20",
     carat: "1.8",
     lab: "HRD",
@@ -1599,7 +1599,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "490296096.0",
+    lotID: "490296096",
     size: "20",
     carat: "1.8",
     lab: "HRD",
@@ -1618,7 +1618,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "1682094.0",
+    lotID: "1682094",
     size: "20",
     carat: "2.01",
     lab: "HRD",
@@ -1637,7 +1637,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "21245651.0",
+    lotID: "21245651",
     size: "20",
     carat: "2.03",
     lab: "HRD",
@@ -1656,7 +1656,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "7537173.0",
+    lotID: "7537173",
     size: "20",
     carat: "2.8",
     lab: "HRD",
@@ -1675,7 +1675,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "1709599.0",
+    lotID: "1709599",
     size: "20",
     carat: "3.0",
     lab: "HRD",
@@ -1694,7 +1694,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "445298427.0",
+    lotID: "445298427",
     size: "20",
     carat: "3.0",
     lab: "HRD",
@@ -1713,7 +1713,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "1709329.0",
+    lotID: "1709329",
     size: "20",
     carat: "3.01",
     lab: "HRD",
@@ -1732,7 +1732,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "1706899.0",
+    lotID: "1706899",
     size: "20",
     carat: "3.03",
     lab: "HRD",
@@ -1751,7 +1751,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "1696732.0",
+    lotID: "1696732",
     size: "20",
     carat: "3.5",
     lab: "HRD",
@@ -1770,7 +1770,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "900058991.0",
+    lotID: "900058991",
     size: "20",
     carat: "3.52",
     lab: "HRD",
@@ -1789,7 +1789,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "1709601.0",
+    lotID: "1709601",
     size: "20",
     carat: "3.52",
     lab: "HRD",
@@ -1808,7 +1808,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "900054495.0",
+    lotID: "900054495",
     size: "20",
     carat: "3.8",
     lab: "HRD",
@@ -1827,7 +1827,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "900057220.0",
+    lotID: "900057220",
     size: "20",
     carat: "3.02",
     lab: "HRD",
@@ -1846,7 +1846,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "1706907.0",
+    lotID: "1706907",
     size: "20",
     carat: "3.0",
     lab: "HRD",
@@ -1865,7 +1865,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "445568009.0",
+    lotID: "445568009",
     size: "20",
     carat: "0.9",
     lab: "HRD",
@@ -1884,7 +1884,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "1.0",
-    lotID: "445376109.0",
+    lotID: "445376109",
     size: "20",
     carat: "1.0",
     lab: "HRD",
@@ -1922,7 +1922,7 @@ List<DiamondReportModel> dartDiamondReports = [
   ),
   DiamondReportModel(
     qty: "100.0",
-    lotID: "100.0",
+    lotID: "100",
     size: "20",
     carat: "178.3",
     lab: "",
