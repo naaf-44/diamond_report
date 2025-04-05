@@ -18,14 +18,21 @@ class DropdownWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return DropdownButtonFormField<String>(
       value: selectedValue,
+      style: TextStyle(color: Colors.white),
       decoration: InputDecoration(
-        labelText: label,
+        labelStyle: TextStyle(color: Colors.white),
+        label: Text(label, style: TextStyle(color: Colors.white)),
         border: border(),
+        disabledBorder: border(),
+        enabledBorder: border(),
+        focusedBorder: border(),
       ),
+      dropdownColor: Colors.black,
+      isExpanded: true,
       items: items.map((String item) {
         return DropdownMenuItem<String>(
           value: item,
-          child: Text(item),
+          child: Text(item, style: TextStyle(color: Colors.white)),
         );
       }).toList(),
       onChanged: onChanged,
@@ -35,7 +42,7 @@ class DropdownWidget extends StatelessWidget {
   OutlineInputBorder border() {
     return OutlineInputBorder(
       borderRadius: BorderRadius.circular(8.0),
-      borderSide: const BorderSide(color: Colors.white, width: 1.5),
+      borderSide: const BorderSide(color: Colors.white, width: 1),
     );
   }
 }

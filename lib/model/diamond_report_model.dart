@@ -1,7 +1,8 @@
 class DiamondReportModel {
+  String? qty;
   String? lotID;
-  double? size;
-  double? carat;
+  String? size;
+  String? carat;
   String? lab;
   String? shape;
   String? color;
@@ -10,13 +11,14 @@ class DiamondReportModel {
   String? polish;
   String? symmetry;
   String? fluorescence;
-  double? discount;
-  double? perCaratRate;
-  double? finalAmount;
+  String? discount;
+  String? perCaratRate;
+  String? finalAmount;
   String? keyToSymbol;
   String? labComment;
 
   DiamondReportModel({
+    this.qty,
     this.lotID,
     this.size,
     this.carat,
@@ -35,71 +37,26 @@ class DiamondReportModel {
     this.labComment,
   });
 
-  factory DiamondReportModel.fromJson(Map<String, dynamic> json) {
-    return DiamondReportModel(
-      lotID: json['lotID'] as String?,
-      size: (json['size'] as num?)?.toDouble(),
-      carat: (json['carat'] as num?)?.toDouble(),
-      lab: json['lab'] as String?,
-      shape: json['shape'] as String?,
-      color: json['color'] as String?,
-      clarity: json['clarity'] as String?,
-      cut: json['cut'] as String?,
-      polish: json['polish'] as String?,
-      symmetry: json['symmetry'] as String?,
-      fluorescence: json['fluorescence'] as String?,
-      discount: (json['discount'] as num?)?.toDouble(),
-      perCaratRate: (json['perCaratRate'] as num?)?.toDouble(),
-      finalAmount: (json['finalAmount'] as num?)?.toDouble(),
-      keyToSymbol: json['keyToSymbol'] as String?,
-      labComment: json['labComment'] as String?,
-    );
-  }
-
-  Map<String, dynamic> toJson() {
-    return {
-      'lotID': lotID,
-      'size': size,
-      'carat': carat,
-      'lab': lab,
-      'shape': shape,
-      'color': color,
-      'clarity': clarity,
-      'cut': cut,
-      'polish': polish,
-      'symmetry': symmetry,
-      'fluorescence': fluorescence,
-      'discount': discount,
-      'perCaratRate': perCaratRate,
-      'finalAmount': finalAmount,
-      'keyToSymbol': keyToSymbol,
-      'labComment': labComment,
-    };
-  }
-
   factory DiamondReportModel.fromList(List<dynamic> row) {
     return DiamondReportModel(
-      lotID: row[0]?.toString(),
-      size: _parseDouble(row[1]),
-      carat: _parseDouble(row[2]),
-      lab: row[3]?.toString(),
-      shape: row[4]?.toString(),
-      color: row[5]?.toString(),
-      clarity: row[6]?.toString(),
-      cut: row[7]?.toString(),
-      polish: row[8]?.toString(),
-      symmetry: row[9]?.toString(),
-      fluorescence: row[10]?.toString(),
-      discount: _parseDouble(row[11]),
-      perCaratRate: _parseDouble(row[12]),
-      finalAmount: _parseDouble(row[13]),
-      keyToSymbol: row[14]?.toString(),
-      labComment: row[15]?.toString(),
+      qty: row[3]?.toString(),
+      lotID: row[4]?.toString(),
+      size: row[5]?.toString(),
+      carat: row[6]?.toString(),
+      lab: row[7]?.toString(),
+      shape: row[8]?.toString(),
+      color: row[9]?.toString(),
+      clarity: row[10]?.toString(),
+      cut: row[11]?.toString(),
+      polish: row[12]?.toString(),
+      symmetry: row[13]?.toString(),
+      fluorescence: row[14]?.toString(),
+      discount: row[15]?.toString(),
+      perCaratRate: row[16]?.toString(),
+      finalAmount: ((double.tryParse(row[6]!.toString()) ?? 0) * (double.tryParse(row[16]!.toString()) ?? 0)).toString(),
+      keyToSymbol: row[18]?.toString(),
+      labComment: row[19]?.toString(),
     );
   }
 
-  static double? _parseDouble(dynamic value) {
-    if (value == null) return null;
-    return double.tryParse(value.toString());
-  }
 }

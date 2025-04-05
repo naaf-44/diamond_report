@@ -1,6 +1,7 @@
 import 'dart:io' show File;
 
 import 'package:diamond_report/model/diamond_report_model.dart';
+import 'package:diamond_report/utils/data.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:excel/excel.dart';
@@ -20,10 +21,12 @@ class DiamondFilterCubit extends Cubit<DiamondFilterState> {
   List<String>? colorList;
   List<String>? clarityList;
 
+  List<DiamondReportModel> diamondList = [];
+
   DiamondFilterCubit() : super(const DiamondFilterState.initial());
 
-  getFilterData(FilePickerResult? pickedFile) async {
-    // try {
+  getExcelFilterData(FilePickerResult? pickedFile) async {
+    try {
       emit(DiamondFilterState.loading());
 
       if (pickedFile != null) {
@@ -31,29 +34,23 @@ class DiamondFilterCubit extends Cubit<DiamondFilterState> {
         var bytes = await file.readAsBytes();
         var excel = Excel.decodeBytes(bytes);
 
-        List<DiamondReportModel> diamondList = [];
-
         for (var table in excel.tables.keys) {
           var rows = excel.tables[table]?.rows;
           if (rows != null && rows.isNotEmpty) {
-            for (int i = 1; i < rows.length; i++) {
-              var row = rows[i].map((cell) => cell?.value).toList();
+            for (int i = 2; i < rows.length; i++) {
+              var row = rows[i].map((cell) => cell?.value ?? "").toList();
               diamondList.add(DiamondReportModel.fromList(row));
             }
           }
         }
 
-        labList = diamondList.map((diamond) => diamond.lab ?? "").toSet().where((lab) => lab.isNotEmpty).toList();
-        labList!.sort();
+        if(diamondList.length == 2) {
+          diamondList.clear();
+        } else if(diamondList.length > 2) {
+          diamondList = diamondList.sublist(0, diamondList.length - 2);
+        }
 
-        shapeList = diamondList.map((diamond) => diamond.shape ?? "").toSet().where((shape) => shape.isNotEmpty).toList();
-        shapeList!.sort();
-
-        colorList = diamondList.map((diamond) => diamond.color ?? "").toSet().where((color) => color.isNotEmpty).toList();
-        colorList!.sort();
-
-        clarityList = diamondList.map((diamond) => diamond.clarity ?? "").toSet().where((clarity) => clarity.isNotEmpty).toList();
-        clarityList!.sort();
+        setFilterList();
 
         emit(DiamondFilterState.success());
 
@@ -61,12 +58,41 @@ class DiamondFilterCubit extends Cubit<DiamondFilterState> {
         emit(DiamondFilterState.error("Couldn't read the file"));
       }
 
-    // } catch (e) {
-    //   emit(DiamondFilterState.error(e.toString()));
-    // }
+    } catch (e) {
+      emit(DiamondFilterState.error(e.toString()));
+    }
   }
 
-  changeState() {
+  getDartFilterData() {
+    try {
+      emit(DiamondFilterState.loading());
 
+      diamondList = dartDiamondReports;
+      setFilterList();
+      emit(DiamondFilterState.success());
+    } catch (e) {
+      emit(DiamondFilterState.error(e.toString()));
+    }
+  }
+
+  changeState() async {
+    emit(DiamondFilterState.loading());
+    await Future.delayed(const Duration(seconds: 1), () {
+      emit(DiamondFilterState.success());
+    },);
+  }
+
+  setFilterList() {
+    labList = diamondList.map((diamond) => diamond.lab ?? "").toSet().where((lab) => lab.isNotEmpty).toList();
+    labList!.sort();
+
+    shapeList = diamondList.map((diamond) => diamond.shape ?? "").toSet().where((shape) => shape.isNotEmpty).toList();
+    shapeList!.sort();
+
+    colorList = diamondList.map((diamond) => diamond.color ?? "").toSet().where((color) => color.isNotEmpty).toList();
+    colorList!.sort();
+
+    clarityList = diamondList.map((diamond) => diamond.clarity ?? "").toSet().where((clarity) => clarity.isNotEmpty).toList();
+    clarityList!.sort();
   }
 }
